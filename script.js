@@ -3,6 +3,8 @@ window.onload = function(){
     const nelyginiaiNuo107iki309 = issaugotiVisusNelyginius107Iki309();
     console.log(nelyginiaiNuo107iki309);
     console.log(testinis);
+    const suma = masyvoSuma(nelyginiaiNuo107iki309);
+    console.log(suma);
     
 }
 function issaugotiVisusNelyginius107Iki309() {
@@ -13,4 +15,20 @@ function issaugotiVisusNelyginius107Iki309() {
         testinis.push(i);
     }
     return testinis;
+}
+
+
+    
+
+function arNelyginis(x){
+    return x % 2 > 0;
+}
+function masyvoSuma(testinis) {
+    let suma = 0;
+    for (let i = 0; i < testinis.length; i++) {
+        
+        suma += testinis[i];  
+              
+    }
+    return suma;
 }
