@@ -13,8 +13,9 @@ window.onload = function(){
 function issaugotiVisusNelyginiusXikiY(x,y) {
     const testinis = [];
     
-    for (let i = x; i <= y; i += 2) {
-        testinis.push(i);
+    for (let i = x; i <= y; i ++) {
+        if (arNelyginis(i)) 
+         testinis.push(i);
     }
     return testinis;
 }
