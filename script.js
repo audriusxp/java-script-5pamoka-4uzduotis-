@@ -7,7 +7,9 @@ window.onload = function(){
 }
 function issaugotiVisusNelyginius107Iki309() {
     const testinis = [];
-    for (let i = 107; i <= 309; i += 2) {
+    let x = 1;
+    let y = 1000;
+    for (let i = x; i <= y; i += 2) {
         testinis.push(i);
     }
     return testinis;
